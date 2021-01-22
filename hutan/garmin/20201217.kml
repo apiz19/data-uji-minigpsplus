@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2"    
+     xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name><![CDATA[20201217]]></name>
+        
+                                    
+        <description><![CDATA[<br/><p> </p><p><br/>Converted using <b><a href='http://gpx2kml.com' title='Go to gpx2kml.com'>gpx2kml.com</a></b></p><br/>]]></description>
+        <visibility>1</visibility>
+        <open>1</open>
+        
+                <Style id="red">
+            <LineStyle>
+            <color>C81400FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_red">
+            <LineStyle>
+            <color>961400FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="green">
+            <LineStyle>
+            <color>C878FF00</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_green">
+            <LineStyle>
+            <color>9678FF00</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="blue">
+            <LineStyle>
+            <color>C8FF7800</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_blue">
+            <LineStyle>
+            <color>96FF7800</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="cyan">
+            <LineStyle>
+            <color>C8F0FF14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_cyan">
+            <LineStyle>
+            <color>96F0FF14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="orange">
+            <LineStyle>
+            <color>C81478FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_orange">
+            <LineStyle>
+            <color>961478FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="dark_green">
+            <LineStyle>
+            <color>C8008C14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_dark_green">
+            <LineStyle>
+            <color>96008C14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="purple">
+            <LineStyle>
+            <color>C8FF7878</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_purple">
+            <LineStyle>
+            <color>96FF7878</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="pink">
+            <LineStyle>
+            <color>C8A078F0</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_pink">
+            <LineStyle>
+            <color>96A078F0</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="brown">
+            <LineStyle>
+            <color>C8143C96</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_brown">
+            <LineStyle>
+            <color>96143C96</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="dark_blue">
+            <LineStyle>
+            <color>C8F01414</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_dark_blue">
+            <LineStyle>
+            <color>96F01414</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        
+                
+                
+        <Folder>
+            <name>Tracks</name>
+            <description>A list of tracks</description>
+            <visibility>1</visibility>            
+            <open>0</open>
+                                                            
+                <Placemark>
+                    <visibility>0</visibility>            
+                    <open>0</open> 
+                    <styleUrl>#red</styleUrl>
+                    <name>ACTIVE LOG-001204</name>
+                    <description>Track no. 1</description>
+                    <LineString>
+                        <extrude>true</extrude>
+                        <tessellate>true</tessellate>
+                        <altitudeMode>clampToGround</altitudeMode> 
+                        <coordinates>
+                            95.590313,5.237452,282.804 95.590284,5.237503,282.795 95.590226,5.237672,282.757                             
+                        </coordinates>
+                    </LineString>
+                </Placemark>
+                                                    
+                <Placemark>
+                    <visibility>0</visibility>            
+                    <open>0</open> 
+                    <styleUrl>#green</styleUrl>
+                    <name>ACTIVE LOG-001901</name>
+                    <description>Track no. 2</description>
+                    <LineString>
+                        <extrude>true</extrude>
+                        <tessellate>true</tessellate>
+                        <altitudeMode>clampToGround</altitudeMode> 
+                        <coordinates>
+                            95.590237,5.237847,389.771 95.590279,5.237803,389.771 95.590325,5.237745,389.416 95.590326,5.237741,389.370 95.590260,5.237703,385.535 95.590302,5.237700,385.507 95.590357,5.237700,385.973 95.590385,5.237656,387.382 95.590380,5.237641,387.504 95.590394,5.237528,389.986 95.590419,5.237495,390.788 95.590438,5.237493,390.984 95.590511,5.237405,392.430 95.590555,5.237334,393.317 95.590565,5.237284,393.821 95.590593,5.237285,394.138 95.590656,5.237299,395.052 95.590788,5.237297,395.771 95.590796,5.237288,395.836 95.590883,5.237213,397.459 95.590886,5.237177,398.430 95.590929,5.237074,399.428 95.591003,5.237013,401.798 95.591053,5.236990,400.958 95.591053,5.236946,400.361 95.590980,5.237010,399.251 95.590975,5.236993,399.092 95.590965,5.236815,397.236 95.591050,5.236758,398.159 95.591033,5.236555,400.623 95.590982,5.236503,402.470 95.590937,5.236513,404.056 95.590876,5.236373,406.044 95.590770,5.236256,407.938 95.590758,5.236239,409.823 95.590753,5.236231,410.121 95.589472,5.234379,456.952 95.589345,5.234419,460.031 95.589263,5.234339,462.037 95.589170,5.234241,465.135 95.589121,5.234266,465.732 95.589113,5.234233,466.964 95.589130,5.234230,468.867 95.589161,5.234165,471.312 95.589060,5.234127,473.458 95.589040,5.234112,473.598 95.588978,5.234125,474.755 95.588984,5.234054,476.864 95.588981,5.234011,479.364 95.588955,5.233966,481.072 95.588960,5.234002,482.210 95.588914,5.233905,484.188 95.588901,5.233843,486.381 95.588871,5.233770,488.583 95.588847,5.233703,491.018 95.588847,5.233681,491.783 95.588813,5.233705,492.763 95.588823,5.233670,493.248 95.588840,5.233675,493.267 95.588881,5.233645,493.948 95.588890,5.233624,494.695 95.588816,5.233515,496.859 95.588812,5.233502,497.027 95.588822,5.233420,499.024 95.588850,5.233363,500.694 95.588827,5.233301,502.169 95.588830,5.233262,502.924 95.588824,5.233206,504.315 95.588817,5.233207,504.343 95.588777,5.233235,504.249 95.588776,5.233215,505.751 95.588729,5.233209,505.621 95.588763,5.233185,505.966 95.588760,5.233182,506.031 95.588761,5.233075,507.282 95.588734,5.233072,508.821 95.588703,5.233047,510.314 95.588769,5.233039,510.977 95.588778,5.233035,510.986 95.588771,5.233047,505.546 95.588765,5.233054,508.803 95.588760,5.233061,510.081 95.588793,5.233076,510.883 95.588763,5.232992,511.406 95.588708,5.232974,512.600 95.588663,5.232930,513.319 95.588606,5.232963,513.281 95.588583,5.232960,513.113 95.588572,5.232937,513.944 95.588578,5.232891,514.093 95.588545,5.232776,514.616 95.588551,5.232754,514.849 95.588558,5.232740,514.868 95.588550,5.232724,515.129 95.588614,5.232816,517.004 95.588627,5.232813,517.172 95.588605,5.232785,517.704 95.588601,5.232701,517.396 95.588595,5.232675,517.573 95.588652,5.232653,517.975 95.588656,5.232735,518.609 95.588655,5.232693,518.889 95.588636,5.232647,519.561 95.588631,5.232644,519.533 95.588621,5.232656,519.496 95.588604,5.232644,519.701 95.588633,5.232539,522.201 95.588676,5.232519,523.284 95.588667,5.232484,523.974 95.588609,5.232464,525.775 95.588627,5.232389,525.850 95.588653,5.232362,526.055 95.588599,5.232316,527.623 95.588544,5.232260,529.993 95.588569,5.232246,530.730 95.588583,5.232201,532.120 95.588546,5.232148,533.604 95.588544,5.232121,536.151 95.588564,5.232093,536.916 95.588573,5.232084,537.830 95.587752,5.231285,567.315 95.587661,5.231222,569.769 95.587636,5.231211,570.413 95.587691,5.231234,570.656 95.587694,5.231268,570.721 95.587722,5.231182,579.165 95.587642,5.231174,580.434 95.587572,5.231117,582.552 95.587504,5.231074,582.991 95.587525,5.231039,583.915 95.587531,5.231011,586.453 95.587499,5.231025,584.512 95.587447,5.230981,584.754 95.587391,5.230969,584.661 95.587323,5.230938,585.604 95.587217,5.230932,585.995 95.587226,5.230925,585.995 95.587283,5.230900,585.930 95.587233,5.230868,585.846 95.587235,5.230846,585.594 95.587253,5.230849,585.790 95.587276,5.230925,586.303 95.587334,5.230948,586.873 95.587240,5.230856,587.134 95.587149,5.230830,586.649 95.587108,5.230780,586.583 95.587089,5.230779,586.826 95.587049,5.230774,586.891 95.586984,5.230733,587.890 95.586852,5.230683,591.127 95.586827,5.230669,591.762 95.586812,5.230657,591.948 95.586834,5.230545,595.093 95.586786,5.230482,598.172 95.586760,5.230470,598.974 95.586756,5.230431,602.147 95.586760,5.230365,605.011 95.586716,5.230269,607.773 95.586678,5.230231,610.022 95.586643,5.230213,611.636 95.586627,5.230199,611.282 95.586600,5.230165,612.709 95.586591,5.230062,615.238 95.586553,5.229959,618.280 95.586515,5.229939,618.149 95.586518,5.229874,617.766 95.586517,5.229839,620.874 95.586489,5.229792,622.012 95.586479,5.229769,620.920                             
+                        </coordinates>
+                    </LineString>
+                </Placemark>
+                                                    
+                <Placemark>
+                    <visibility>0</visibility>            
+                    <open>0</open> 
+                    <styleUrl>#blue</styleUrl>
+                    <name>ACTIVE LOG-221542</name>
+                    <description>Track no. 3</description>
+                    <LineString>
+                        <extrude>true</extrude>
+                        <tessellate>true</tessellate>
+                        <altitudeMode>clampToGround</altitudeMode> 
+                        <coordinates>
+                            95.586815,5.229890,572.858 95.586820,5.229886,572.858 95.586650,5.229829,572.811 95.586648,5.229835,572.942                             
+                        </coordinates>
+                    </LineString>
+                </Placemark>
+                                                    
+                <Placemark>
+                    <visibility>0</visibility>            
+                    <open>0</open> 
+                    <styleUrl>#cyan</styleUrl>
+                    <name>ACTIVE LOG-225057</name>
+                    <description>Track no. 4</description>
+                    <LineString>
+                        <extrude>true</extrude>
+                        <tessellate>true</tessellate>
+                        <altitudeMode>clampToGround</altitudeMode> 
+                        <coordinates>
+                            95.586475,5.229446,592.228 95.586475,5.229447,592.228 95.586434,5.229729,592.070                             
+                        </coordinates>
+                    </LineString>
+                </Placemark>
+                                        
+        </Folder>
+                
+        <LookAt>
+            <longitude>95.5887435</longitude>            
+            <latitude>5.2336465</latitude>             
+            <altitude>0</altitude>               
+            <heading>0</heading>               
+            <tilt>45</tilt>
+            <range>494</range>                    
+            <altitudeMode>clampToGround</altitudeMode> 
+        </LookAt>
+    </Document>
+</kml>

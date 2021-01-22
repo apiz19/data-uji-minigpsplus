@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created Sun Dec 20 05:44:56 2020 GMT</snippet>
+    <LookAt>
+      <gx:TimeSpan>
+        <begin>2020-12-17T04:46:00Z</begin>
+        <end>2020-12-17T05:49:39Z</end>
+      </gx:TimeSpan>
+      <longitude>95.589770</longitude>
+      <latitude>5.241955</latitude>
+      <range>1300.000000</range>
+    </LookAt>
+    <!-- Normal track style -->
+    <Style id="track_n">
+      <IconStyle>
+        <scale>.5</scale>
+        <Icon>
+          <href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <!-- Highlighted track style -->
+    <Style id="track_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="track">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#track_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#track_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>99ffac59</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Tracks</name>
+      <Folder>
+        <name>ACTIVE LOG-224600</name>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Distance</b> 33.2 ft </td></tr>
+<tr><td><b>Min Alt</b> 1071.194 ft </td></tr>
+<tr><td><b>Max Alt</b> 1077.070 ft </td></tr>
+<tr><td><b>Min Speed</b> 0.5 mph </td></tr>
+<tr><td><b>Max Speed</b> 5.0 mph </td></tr>
+<tr><td><b>Start Time</b>2020-12-17T04:46:00Z</td></tr>
+<tr><td><b>End Time</b>2020-12-17T04:46:30Z</td></tr>
+</table>]]>
+</description>
+        <TimeSpan>
+          <begin>2020-12-17T04:46:00Z</begin>
+          <end>2020-12-17T04:46:30Z</end>
+        </TimeSpan>
+        <Folder>
+          <name>Points</name>
+          <Placemark>
+            <name>ACTIVE LOG-224600-0</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590642 </td></tr>
+<tr><td>Latitude: 5.243990 </td></tr>
+<tr><td>Altitude: 1076.306 ft </td></tr>
+<tr><td>Heading: 84.7 </td></tr>
+<tr><td>Time: 2020-12-17T04:46:00Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590642</longitude>
+              <latitude>5.243990</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T04:46:00Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590642,5.243990,328.06</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-224600-1</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590621 </td></tr>
+<tr><td>Latitude: 5.243956 </td></tr>
+<tr><td>Altitude: 1071.194 ft </td></tr>
+<tr><td>Speed: 5.0 mph </td></tr>
+<tr><td>Heading: 211.6 </td></tr>
+<tr><td>Time: 2020-12-17T04:46:02Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590621</longitude>
+              <latitude>5.243956</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T04:46:02Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590621,5.243956,326.50</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-224600-2</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590570 </td></tr>
+<tr><td>Latitude: 5.243952 </td></tr>
+<tr><td>Altitude: 1077.070 ft </td></tr>
+<tr><td>Speed: 0.5 mph </td></tr>
+<tr><td>Heading: 265.5 </td></tr>
+<tr><td>Time: 2020-12-17T04:46:30Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590570</longitude>
+              <latitude>5.243952</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T04:46:30Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590570,5.243952,328.29</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+95.590642,5.243990,328.06
+95.590621,5.243956,326.50
+95.590570,5.243952,328.29
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>ACTIVE LOG-231353</name>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Distance</b> 2147.7 ft </td></tr>
+<tr><td><b>Min Alt</b> 554.820 ft </td></tr>
+<tr><td><b>Max Alt</b> 1096.601 ft </td></tr>
+<tr><td><b>Min Speed</b> 0.0 mph </td></tr>
+<tr><td><b>Max Speed</b> 18.5 mph </td></tr>
+<tr><td><b>Start Time</b>2020-12-17T05:13:53Z</td></tr>
+<tr><td><b>End Time</b>2020-12-17T05:49:39Z</td></tr>
+</table>]]>
+</description>
+        <TimeSpan>
+          <begin>2020-12-17T05:13:53Z</begin>
+          <end>2020-12-17T05:49:39Z</end>
+        </TimeSpan>
+        <Folder>
+          <name>Points</name>
+          <Placemark>
+            <name>ACTIVE LOG-231353-0</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590287 </td></tr>
+<tr><td>Latitude: 5.243834 </td></tr>
+<tr><td>Altitude: 554.820 ft </td></tr>
+<tr><td>Heading: 84.7 </td></tr>
+<tr><td>Time: 2020-12-17T05:13:53Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590287</longitude>
+              <latitude>5.243834</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:13:53Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590287,5.243834,169.11</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-1</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590335 </td></tr>
+<tr><td>Latitude: 5.243891 </td></tr>
+<tr><td>Altitude: 554.820 ft </td></tr>
+<tr><td>Speed: 18.5 mph </td></tr>
+<tr><td>Heading: 40.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:13:54Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590335</longitude>
+              <latitude>5.243891</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:13:54Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590335,5.243891,169.11</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-2</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590536 </td></tr>
+<tr><td>Latitude: 5.244066 </td></tr>
+<tr><td>Altitude: 554.974 ft </td></tr>
+<tr><td>Speed: 2.2 mph </td></tr>
+<tr><td>Heading: 48.8 </td></tr>
+<tr><td>Time: 2020-12-17T05:14:24Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590536</longitude>
+              <latitude>5.244066</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:14:24Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590536,5.244066,169.16</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-3</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590543 </td></tr>
+<tr><td>Latitude: 5.243997 </td></tr>
+<tr><td>Altitude: 1013.796 ft </td></tr>
+<tr><td>Speed: 0.3 mph </td></tr>
+<tr><td>Heading: 174.2 </td></tr>
+<tr><td>Time: 2020-12-17T05:15:17Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590543</longitude>
+              <latitude>5.243997</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:15:17Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590543,5.243997,309.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-4</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590548 </td></tr>
+<tr><td>Latitude: 5.243999 </td></tr>
+<tr><td>Altitude: 1013.796 ft </td></tr>
+<tr><td>Heading: 68.1 </td></tr>
+<tr><td>Time: 2020-12-17T05:15:18Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590548</longitude>
+              <latitude>5.243999</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:15:18Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590548,5.243999,309.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-5</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590549 </td></tr>
+<tr><td>Latitude: 5.243958 </td></tr>
+<tr><td>Altitude: 1003.724 ft </td></tr>
+<tr><td>Speed: 0.8 mph </td></tr>
+<tr><td>Heading: 178.6 </td></tr>
+<tr><td>Time: 2020-12-17T05:15:31Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590549</longitude>
+              <latitude>5.243958</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:15:31Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590549,5.243958,305.94</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-6</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590563 </td></tr>
+<tr><td>Latitude: 5.243823 </td></tr>
+<tr><td>Altitude: 1006.050 ft </td></tr>
+<tr><td>Speed: 1.7 mph </td></tr>
+<tr><td>Heading: 174.1 </td></tr>
+<tr><td>Time: 2020-12-17T05:15:51Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590563</longitude>
+              <latitude>5.243823</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:15:51Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590563,5.243823,306.64</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-7</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590556 </td></tr>
+<tr><td>Latitude: 5.243787 </td></tr>
+<tr><td>Altitude: 1008.009 ft </td></tr>
+<tr><td>Speed: 0.6 mph </td></tr>
+<tr><td>Heading: 191.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:16:06Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590556</longitude>
+              <latitude>5.243787</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:16:06Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590556,5.243787,307.24</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-8</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590560 </td></tr>
+<tr><td>Latitude: 5.243775 </td></tr>
+<tr><td>Altitude: 1010.397 ft </td></tr>
+<tr><td>Speed: 0.2 mph </td></tr>
+<tr><td>Heading: 161.6 </td></tr>
+<tr><td>Time: 2020-12-17T05:16:19Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590560</longitude>
+              <latitude>5.243775</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:16:19Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590560,5.243775,307.97</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-9</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590540 </td></tr>
+<tr><td>Latitude: 5.243680 </td></tr>
+<tr><td>Altitude: 1012.539 ft </td></tr>
+<tr><td>Speed: 1.4 mph </td></tr>
+<tr><td>Heading: 191.8 </td></tr>
+<tr><td>Time: 2020-12-17T05:16:36Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590540</longitude>
+              <latitude>5.243680</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:16:36Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590540,5.243680,308.62</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-10</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590558 </td></tr>
+<tr><td>Latitude: 5.243644 </td></tr>
+<tr><td>Altitude: 1013.428 ft </td></tr>
+<tr><td>Speed: 0.6 mph </td></tr>
+<tr><td>Heading: 153.5 </td></tr>
+<tr><td>Time: 2020-12-17T05:16:52Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590558</longitude>
+              <latitude>5.243644</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:16:52Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590558,5.243644,308.89</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-11</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.590549 </td></tr>
+<tr><td>Latitude: 5.243696 </td></tr>
+<tr><td>Altitude: 1012.172 ft </td></tr>
+<tr><td>Speed: 0.9 mph </td></tr>
+<tr><td>Heading: 350.2 </td></tr>
+<tr><td>Time: 2020-12-17T05:17:07Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.590549</longitude>
+              <latitude>5.243696</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:17:07Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.590549,5.243696,308.51</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-12</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589403 </td></tr>
+<tr><td>Latitude: 5.241765 </td></tr>
+<tr><td>Altitude: 1075.325 ft </td></tr>
+<tr><td>Speed: 0.7 mph </td></tr>
+<tr><td>Heading: 210.6 </td></tr>
+<tr><td>Time: 2020-12-17T05:30:08Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589403</longitude>
+              <latitude>5.241765</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:30:08Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589403,5.241765,327.76</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-13</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589438 </td></tr>
+<tr><td>Latitude: 5.241660 </td></tr>
+<tr><td>Altitude: 1077.133 ft </td></tr>
+<tr><td>Speed: 2.0 mph </td></tr>
+<tr><td>Heading: 161.6 </td></tr>
+<tr><td>Time: 2020-12-17T05:30:22Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589438</longitude>
+              <latitude>5.241660</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:30:22Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589438,5.241660,328.31</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-14</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589433 </td></tr>
+<tr><td>Latitude: 5.241652 </td></tr>
+<tr><td>Altitude: 1077.559 ft </td></tr>
+<tr><td>Speed: 0.8 mph </td></tr>
+<tr><td>Heading: 211.9 </td></tr>
+<tr><td>Time: 2020-12-17T05:30:25Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589433</longitude>
+              <latitude>5.241652</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:30:25Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589433,5.241652,328.44</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-15</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589440 </td></tr>
+<tr><td>Latitude: 5.241637 </td></tr>
+<tr><td>Altitude: 1077.408 ft </td></tr>
+<tr><td>Speed: 1.0 mph </td></tr>
+<tr><td>Heading: 155.1 </td></tr>
+<tr><td>Time: 2020-12-17T05:30:29Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589440</longitude>
+              <latitude>5.241637</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:30:29Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589440,5.241637,328.39</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-16</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589440 </td></tr>
+<tr><td>Latitude: 5.241607 </td></tr>
+<tr><td>Altitude: 1077.254 ft </td></tr>
+<tr><td>Speed: 0.8 mph </td></tr>
+<tr><td>Heading: 180.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:30:38Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589440</longitude>
+              <latitude>5.241607</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:30:38Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589440,5.241607,328.35</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-17</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589456 </td></tr>
+<tr><td>Latitude: 5.241609 </td></tr>
+<tr><td>Altitude: 1076.306 ft </td></tr>
+<tr><td>Speed: 0.4 mph </td></tr>
+<tr><td>Heading: 82.8 </td></tr>
+<tr><td>Time: 2020-12-17T05:30:48Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589456</longitude>
+              <latitude>5.241609</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:30:48Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589456,5.241609,328.06</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-18</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589370 </td></tr>
+<tr><td>Latitude: 5.241597 </td></tr>
+<tr><td>Altitude: 1072.385 ft </td></tr>
+<tr><td>Speed: 1.3 mph </td></tr>
+<tr><td>Heading: 262.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:31:05Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589370</longitude>
+              <latitude>5.241597</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:31:05Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589370,5.241597,326.86</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-19</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589408 </td></tr>
+<tr><td>Latitude: 5.241532 </td></tr>
+<tr><td>Altitude: 1067.182 ft </td></tr>
+<tr><td>Speed: 0.2 mph </td></tr>
+<tr><td>Heading: 149.8 </td></tr>
+<tr><td>Time: 2020-12-17T05:32:26Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589408</longitude>
+              <latitude>5.241532</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:32:26Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589408,5.241532,325.28</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-20</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589396 </td></tr>
+<tr><td>Latitude: 5.241649 </td></tr>
+<tr><td>Altitude: 1067.123 ft </td></tr>
+<tr><td>Speed: 0.6 mph </td></tr>
+<tr><td>Heading: 354.2 </td></tr>
+<tr><td>Time: 2020-12-17T05:33:16Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589396</longitude>
+              <latitude>5.241649</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:33:16Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589396,5.241649,325.26</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-21</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589422 </td></tr>
+<tr><td>Latitude: 5.241660 </td></tr>
+<tr><td>Altitude: 1066.171 ft </td></tr>
+<tr><td>Speed: 0.4 mph </td></tr>
+<tr><td>Heading: 67.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:33:36Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589422</longitude>
+              <latitude>5.241660</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:33:36Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589422,5.241660,324.97</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-22</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589422 </td></tr>
+<tr><td>Latitude: 5.241602 </td></tr>
+<tr><td>Altitude: 1059.682 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 180.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:40:43Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589422</longitude>
+              <latitude>5.241602</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:40:43Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589422,5.241602,322.99</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-23</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589456 </td></tr>
+<tr><td>Latitude: 5.241649 </td></tr>
+<tr><td>Altitude: 1057.999 ft </td></tr>
+<tr><td>Speed: 0.5 mph </td></tr>
+<tr><td>Heading: 35.8 </td></tr>
+<tr><td>Time: 2020-12-17T05:41:11Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589456</longitude>
+              <latitude>5.241649</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:41:11Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589456,5.241649,322.48</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-24</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589477 </td></tr>
+<tr><td>Latitude: 5.241659 </td></tr>
+<tr><td>Altitude: 1057.877 ft </td></tr>
+<tr><td>Speed: 0.5 mph </td></tr>
+<tr><td>Heading: 64.4 </td></tr>
+<tr><td>Time: 2020-12-17T05:41:22Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589477</longitude>
+              <latitude>5.241659</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:41:22Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589477,5.241659,322.44</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-25</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589471 </td></tr>
+<tr><td>Latitude: 5.241585 </td></tr>
+<tr><td>Altitude: 1060.203 ft </td></tr>
+<tr><td>Speed: 0.8 mph </td></tr>
+<tr><td>Heading: 184.6 </td></tr>
+<tr><td>Time: 2020-12-17T05:41:45Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589471</longitude>
+              <latitude>5.241585</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:41:45Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589471,5.241585,323.15</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-26</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589469 </td></tr>
+<tr><td>Latitude: 5.241579 </td></tr>
+<tr><td>Altitude: 1060.203 ft </td></tr>
+<tr><td>Heading: 198.4 </td></tr>
+<tr><td>Time: 2020-12-17T05:41:47Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589469</longitude>
+              <latitude>5.241579</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:41:47Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589469,5.241579,323.15</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-27</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589459 </td></tr>
+<tr><td>Latitude: 5.241491 </td></tr>
+<tr><td>Altitude: 1060.295 ft </td></tr>
+<tr><td>Speed: 1.3 mph </td></tr>
+<tr><td>Heading: 186.5 </td></tr>
+<tr><td>Time: 2020-12-17T05:42:04Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589459</longitude>
+              <latitude>5.241491</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:42:04Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589459,5.241491,323.18</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-28</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589512 </td></tr>
+<tr><td>Latitude: 5.241435 </td></tr>
+<tr><td>Altitude: 1064.918 ft </td></tr>
+<tr><td>Speed: 1.1 mph </td></tr>
+<tr><td>Heading: 136.7 </td></tr>
+<tr><td>Time: 2020-12-17T05:42:22Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589512</longitude>
+              <latitude>5.241435</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:42:22Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589512,5.241435,324.59</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-29</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589503 </td></tr>
+<tr><td>Latitude: 5.241384 </td></tr>
+<tr><td>Altitude: 1061.886 ft </td></tr>
+<tr><td>Speed: 0.6 mph </td></tr>
+<tr><td>Heading: 190.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:42:42Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589503</longitude>
+              <latitude>5.241384</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:42:42Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589503,5.241384,323.66</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-30</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589492 </td></tr>
+<tr><td>Latitude: 5.241371 </td></tr>
+<tr><td>Altitude: 1061.030 ft </td></tr>
+<tr><td>Speed: 1.1 mph </td></tr>
+<tr><td>Heading: 220.1 </td></tr>
+<tr><td>Time: 2020-12-17T05:42:46Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589492</longitude>
+              <latitude>5.241371</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:42:46Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589492,5.241371,323.40</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-31</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589452 </td></tr>
+<tr><td>Latitude: 5.241297 </td></tr>
+<tr><td>Altitude: 1059.623 ft </td></tr>
+<tr><td>Speed: 1.6 mph </td></tr>
+<tr><td>Heading: 208.3 </td></tr>
+<tr><td>Time: 2020-12-17T05:42:59Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589452</longitude>
+              <latitude>5.241297</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:42:59Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589452,5.241297,322.97</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-32</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589450 </td></tr>
+<tr><td>Latitude: 5.241233 </td></tr>
+<tr><td>Altitude: 1059.469 ft </td></tr>
+<tr><td>Speed: 0.6 mph </td></tr>
+<tr><td>Heading: 181.8 </td></tr>
+<tr><td>Time: 2020-12-17T05:43:24Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589450</longitude>
+              <latitude>5.241233</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:43:24Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589450,5.241233,322.93</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-33</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589465 </td></tr>
+<tr><td>Latitude: 5.241156 </td></tr>
+<tr><td>Altitude: 1061.457 ft </td></tr>
+<tr><td>Speed: 0.7 mph </td></tr>
+<tr><td>Heading: 169.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:43:54Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589465</longitude>
+              <latitude>5.241156</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:43:54Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589465,5.241156,323.53</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-34</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589422 </td></tr>
+<tr><td>Latitude: 5.241072 </td></tr>
+<tr><td>Altitude: 1064.977 ft </td></tr>
+<tr><td>Speed: 1.1 mph </td></tr>
+<tr><td>Heading: 207.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:44:15Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589422</longitude>
+              <latitude>5.241072</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:44:15Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589422,5.241072,324.61</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-35</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589408 </td></tr>
+<tr><td>Latitude: 5.241001 </td></tr>
+<tr><td>Altitude: 1066.722 ft </td></tr>
+<tr><td>Speed: 0.9 mph </td></tr>
+<tr><td>Heading: 191.1 </td></tr>
+<tr><td>Time: 2020-12-17T05:44:36Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589408</longitude>
+              <latitude>5.241001</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:44:36Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589408,5.241001,325.14</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-36</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589444 </td></tr>
+<tr><td>Latitude: 5.240994 </td></tr>
+<tr><td>Altitude: 1066.539 ft </td></tr>
+<tr><td>Speed: 0.3 mph </td></tr>
+<tr><td>Heading: 101.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:45:10Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589444</longitude>
+              <latitude>5.240994</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:45:10Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589444,5.240994,325.08</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-37</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589395 </td></tr>
+<tr><td>Latitude: 5.240969 </td></tr>
+<tr><td>Altitude: 1066.204 ft </td></tr>
+<tr><td>Speed: 0.4 mph </td></tr>
+<tr><td>Heading: 242.9 </td></tr>
+<tr><td>Time: 2020-12-17T05:45:44Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589395</longitude>
+              <latitude>5.240969</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:45:44Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589395,5.240969,324.98</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-38</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589358 </td></tr>
+<tr><td>Latitude: 5.240950 </td></tr>
+<tr><td>Altitude: 1067.549 ft </td></tr>
+<tr><td>Speed: 1.1 mph </td></tr>
+<tr><td>Heading: 242.7 </td></tr>
+<tr><td>Time: 2020-12-17T05:45:53Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589358</longitude>
+              <latitude>5.240950</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:45:53Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589358,5.240950,325.39</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-39</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589253 </td></tr>
+<tr><td>Latitude: 5.240879 </td></tr>
+<tr><td>Altitude: 1069.416 ft </td></tr>
+<tr><td>Speed: 1.9 mph </td></tr>
+<tr><td>Heading: 235.8 </td></tr>
+<tr><td>Time: 2020-12-17T05:46:10Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589253</longitude>
+              <latitude>5.240879</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:46:10Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589253,5.240879,325.96</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-40</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589188 </td></tr>
+<tr><td>Latitude: 5.240764 </td></tr>
+<tr><td>Altitude: 1064.275 ft </td></tr>
+<tr><td>Speed: 0.9 mph </td></tr>
+<tr><td>Heading: 209.4 </td></tr>
+<tr><td>Time: 2020-12-17T05:46:45Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589188</longitude>
+              <latitude>5.240764</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:46:45Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589188,5.240764,324.39</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-41</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589026 </td></tr>
+<tr><td>Latitude: 5.240569 </td></tr>
+<tr><td>Altitude: 1072.448 ft </td></tr>
+<tr><td>Speed: 1.9 mph </td></tr>
+<tr><td>Heading: 219.6 </td></tr>
+<tr><td>Time: 2020-12-17T05:47:19Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589026</longitude>
+              <latitude>5.240569</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:47:19Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589026,5.240569,326.88</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-42</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589072 </td></tr>
+<tr><td>Latitude: 5.240454 </td></tr>
+<tr><td>Altitude: 1077.224 ft </td></tr>
+<tr><td>Speed: 0.7 mph </td></tr>
+<tr><td>Heading: 158.3 </td></tr>
+<tr><td>Time: 2020-12-17T05:48:03Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589072</longitude>
+              <latitude>5.240454</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:48:03Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589072,5.240454,328.34</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-43</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.589062 </td></tr>
+<tr><td>Latitude: 5.240409 </td></tr>
+<tr><td>Altitude: 1079.488 ft </td></tr>
+<tr><td>Speed: 1.4 mph </td></tr>
+<tr><td>Heading: 192.5 </td></tr>
+<tr><td>Time: 2020-12-17T05:48:11Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.589062</longitude>
+              <latitude>5.240409</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:48:11Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.589062,5.240409,329.03</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-44</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.588988 </td></tr>
+<tr><td>Latitude: 5.240273 </td></tr>
+<tr><td>Altitude: 1085.643 ft </td></tr>
+<tr><td>Speed: 1.9 mph </td></tr>
+<tr><td>Heading: 208.5 </td></tr>
+<tr><td>Time: 2020-12-17T05:48:31Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.588988</longitude>
+              <latitude>5.240273</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:48:31Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.588988,5.240273,330.90</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-45</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.588983 </td></tr>
+<tr><td>Latitude: 5.240262 </td></tr>
+<tr><td>Altitude: 1086.070 ft </td></tr>
+<tr><td>Speed: 1.5 mph </td></tr>
+<tr><td>Heading: 204.4 </td></tr>
+<tr><td>Time: 2020-12-17T05:48:33Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.588983</longitude>
+              <latitude>5.240262</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:48:33Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.588983,5.240262,331.03</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-46</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.588922 </td></tr>
+<tr><td>Latitude: 5.240084 </td></tr>
+<tr><td>Altitude: 1089.072 ft </td></tr>
+<tr><td>Speed: 2.0 mph </td></tr>
+<tr><td>Heading: 198.8 </td></tr>
+<tr><td>Time: 2020-12-17T05:48:57Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.588922</longitude>
+              <latitude>5.240084</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:48:57Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.588922,5.240084,331.95</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-47</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.588957 </td></tr>
+<tr><td>Latitude: 5.240028 </td></tr>
+<tr><td>Altitude: 1092.316 ft </td></tr>
+<tr><td>Speed: 1.5 mph </td></tr>
+<tr><td>Heading: 148.1 </td></tr>
+<tr><td>Time: 2020-12-17T05:49:08Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.588957</longitude>
+              <latitude>5.240028</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:49:08Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.588957,5.240028,332.94</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-48</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.588999 </td></tr>
+<tr><td>Latitude: 5.239966 </td></tr>
+<tr><td>Altitude: 1096.601 ft </td></tr>
+<tr><td>Speed: 1.0 mph </td></tr>
+<tr><td>Heading: 146.0 </td></tr>
+<tr><td>Time: 2020-12-17T05:49:27Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.588999</longitude>
+              <latitude>5.239966</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:49:27Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.588999,5.239966,334.24</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>ACTIVE LOG-231353-49</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 95.588897 </td></tr>
+<tr><td>Latitude: 5.239843 </td></tr>
+<tr><td>Altitude: 1096.234 ft </td></tr>
+<tr><td>Speed: 3.3 mph </td></tr>
+<tr><td>Heading: 219.5 </td></tr>
+<tr><td>Time: 2020-12-17T05:49:39Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>95.588897</longitude>
+              <latitude>5.239843</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2020-12-17T05:49:39Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>95.588897,5.239843,334.13</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+95.590287,5.243834,169.11
+95.590335,5.243891,169.11
+95.590536,5.244066,169.16
+95.590543,5.243997,309.00
+95.590548,5.243999,309.00
+95.590549,5.243958,305.94
+95.590563,5.243823,306.64
+95.590556,5.243787,307.24
+95.590560,5.243775,307.97
+95.590540,5.243680,308.62
+95.590558,5.243644,308.89
+95.590549,5.243696,308.51
+95.589403,5.241765,327.76
+95.589438,5.241660,328.31
+95.589433,5.241652,328.44
+95.589440,5.241637,328.39
+95.589440,5.241607,328.35
+95.589456,5.241609,328.06
+95.589370,5.241597,326.86
+95.589408,5.241532,325.28
+95.589396,5.241649,325.26
+95.589422,5.241660,324.97
+95.589422,5.241602,322.99
+95.589456,5.241649,322.48
+95.589477,5.241659,322.44
+95.589471,5.241585,323.15
+95.589469,5.241579,323.15
+95.589459,5.241491,323.18
+95.589512,5.241435,324.59
+95.589503,5.241384,323.66
+95.589492,5.241371,323.40
+95.589452,5.241297,322.97
+95.589450,5.241233,322.93
+95.589465,5.241156,323.53
+95.589422,5.241072,324.61
+95.589408,5.241001,325.14
+95.589444,5.240994,325.08
+95.589395,5.240969,324.98
+95.589358,5.240950,325.39
+95.589253,5.240879,325.96
+95.589188,5.240764,324.39
+95.589026,5.240569,326.88
+95.589072,5.240454,328.34
+95.589062,5.240409,329.03
+95.588988,5.240273,330.90
+95.588983,5.240262,331.03
+95.588922,5.240084,331.95
+95.588957,5.240028,332.94
+95.588999,5.239966,334.24
+95.588897,5.239843,334.13
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
