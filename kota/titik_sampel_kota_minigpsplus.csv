@@ -1,4 +1,4 @@
-point, latitude, longitude, altitude
+name, latitude, longitude, altitude
 0m, 5.557778, 95.311944, 9
 400m, 5.556111, 95.315278, 9
 800m, 5.559167, 95.316112, 7

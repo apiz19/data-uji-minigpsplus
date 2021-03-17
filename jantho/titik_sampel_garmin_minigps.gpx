@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer https://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="5.243889" lon="95.590556">
+  <ele>286.7</ele>
+  <name>0m</name>
+</wpt>
+<wpt lat="5.241667" lon="95.589444">
+  <ele>312.7</ele>
+  <name>400m</name>
+</wpt>
+<wpt lat="5.237778" lon="95.590278">
+  <ele>366.6</ele>
+  <name>800m</name>
+</wpt>
+<wpt lat="5.2362413" lon="95.590828">
+  <ele>404.7</ele>
+  <name>1200m</name>
+</wpt>
+</gpx>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer https://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="5.403167" lon="95.64047">
+  <ele>349.6</ele>
+  <name>0m</name>
+</wpt>
+<wpt lat="5.407726" lon="95.640068">
+  <ele>444.9</ele>
+  <name>500m</name>
+</wpt>
+<wpt lat="5.414867" lon="95.637754">
+  <ele>522.3</ele>
+  <name>1000m</name>
+</wpt>
+<wpt lat="5.421682" lon="95.6379">
+  <ele>601.9</ele>
+  <name>1500m</name>
+</wpt>
+<wpt lat="5.42706" lon="95.638668">
+  <ele>695.2</ele>
+  <name>2000m</name>
+</wpt>
+<wpt lat="5.4031429" lon="95.640495">
+  <ele>349.4</ele>
+  <name>0m</name>
+</wpt>
+<wpt lat="5.407742" lon="95.640114">
+  <ele>444.1</ele>
+  <name>500m</name>
+</wpt>
+<wpt lat="5.4149008" lon="95.637749">
+  <ele>522.7</ele>
+  <name>1000m</name>
+</wpt>
+<wpt lat="5.4216671" lon="95.637917">
+  <ele>601.5</ele>
+  <name>1500m</name>
+</wpt>
+<wpt lat="5.4270763" lon="95.638702">
+  <ele>695.5</ele>
+  <name>2000m</name>
+</wpt>
+</gpx>
