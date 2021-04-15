@@ -1,0 +1,27 @@
+% Sky Area:           99,9
+% Mask Area:          0,1
+% Canopy Openness:    17,27
+% Site Openness:      17,25
+                      
+LAI 4 Ring:           2,26
+LAI 5 Ring:           1,96
+                      
+Units:                Mols m-2 d-1
+RB:                   1
+RD:                   1
+Extra (Wm-2):         294,74
+Above Direct:         14,64
+Above Diffuse:        14,64
+Above Total:          29,29
+Above Direct Mask:    14,64
+Above Diffuse Mask:   14,64
+Above Total Mask:     29,28
+Trans Direct:         3,37
+Trans Diffuse:        2,79
+Trans Total:          6,16
+% Trans Direct:       23,02
+% Trans Diffuse:      19,04
+% Trans Total:        21,03
+                      
+Time Of Calculation:  02:51:59 AM
+Date Of Calculation:  Mar 30 2021

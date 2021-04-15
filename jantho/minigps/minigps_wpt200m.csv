@@ -1,0 +1,11 @@
+name, desc, latitude, longitude, color, symbol
+MiniGPS+, 0m, 5.243880, 95.590401    , red, pin
+MiniGPS+, 200m, 5.243028, 95.589818  , red, pin
+MiniGPS+, 400m, 5.241966, 95.589432  , red, pin
+MiniGPS+, 600m, 5.241565, 95.589437  , red, pin
+MiniGPS+, 800m, 5.240229, 95.588990  , red, pin
+MiniGPS+, 1000m, 5.239304, 95.588776 , red, pin
+MiniGPS+, 1200m, 5.238346, 95.589787 , red, pin
+MiniGPS+, 1400m, 5.237769, 95.590295 , red, pin
+MiniGPS+, 1600m, 5.237622, 95.590279 , red, pin
+MiniGPS+, 1800m, 5.236910, 95.591112 , red, pin

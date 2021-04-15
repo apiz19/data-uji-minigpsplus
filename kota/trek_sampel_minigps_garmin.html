@@ -220,6 +220,11 @@
 			function GV_Map() {
 				GV_Setup_Map();
 
+				// Waypoint #1
+				<!-- w = 2; wpt[w] = {info:[],segments:[]}; -->
+				<!-- wpt[w].info.name = 'MiniGPS+'; wpt[w].info.desc = ''; wpt[w].info.clickable = true; -->
+				<!-- wpt[w].info.color = '#e60000'; wpt[w].info.width = 3; trk[w].info.opacity = 0.9; trk[w].info.hidden = false; trk[w].info.z_index = null; -->
+
 				// Track #1
 				t = 1; trk[t] = {info:[],segments:[]};
 				trk[t].info.name = 'MiniGPS+'; trk[t].info.desc = ''; trk[t].info.clickable = true;
@@ -239,17 +244,18 @@
 				GV_Draw_Track(t);
 
 				t = 1; GV_Add_Track_to_Tracklist({bullet:'- ',name:trk[t].info.name,desc:trk[t].info.desc,color:trk[t].info.color,number:t});
+        <!-- w = 1; GV_Draw_Marker({bullet:'- ',name:wpt[w].info.name,desc:wpt[w].info.desc,color:wpt[w].info.color,number:w}); -->
 				t = 2; GV_Add_Track_to_Tracklist({bullet:'- ',name:trk[t].info.name,desc:trk[t].info.desc,color:trk[t].info.color,number:t});
 
 
-				GV_Draw_Marker({lat:5.5577780,lon:95.3116670,alt:5.667,name:'0m',desc:'MiniGPS+',color:'',icon:''});
-				GV_Draw_Marker({lat:5.5561110,lon:95.3150000,alt:8,name:'400m',desc:'MiniGPS+',color:'',icon:''});
-				GV_Draw_Marker({lat:5.5591670,lon:95.3161120,alt:8,name:'800m',desc:'MiniGPS+',color:'',icon:''});
-				GV_Draw_Marker({lat:5.5602780,lon:95.3186110,alt:7.223,name:'1200m',desc:'MiniGPS+',color:'',icon:''});
-				GV_Draw_Marker({lat:5.5577780,lon:95.3191670,alt:8.999,name:'1600m',desc:'MiniGPS+',color:'',icon:''});
-				GV_Draw_Marker({lat:5.5561110,lon:95.3219440,alt:8.778,name:'2000m',desc:'MiniGPS+',color:'',icon:''});
-				GV_Draw_Marker({lat:5.5577780,lon:95.3119440,alt:5.778,name:'0m',desc:'Garmin Oregon',color:'pink',icon:''});
-				GV_Draw_Marker({lat:5.5561110,lon:95.3152780,alt:8.556,name:'400m',desc:'Garmin Oregon',color:'pink',icon:''});
+				GV_Draw_Marker({lat:5.5577780,lon:95.3116670,alt:5.667,name:'0m',desc:'Garmin Oregon',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:5.5561110,lon:95.3150000,alt:8,name:'400m',desc:'Garmin Oregon',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:5.5591670,lon:95.3161120,alt:8,name:'800m',desc:'Garmin Oregon',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:5.5602780,lon:95.3186110,alt:7.223,name:'1200m',desc:'Garmin Oregon',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:5.5577780,lon:95.3191670,alt:8.999,name:'1600m',desc:'Garmin Oregon',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:5.5561110,lon:95.3219440,alt:8.778,name:'2000m',desc:'Garmin Oregon',color:'#0098e6',icon:''});
+				GV_Draw_Marker({lat:5.5577780,lon:95.3119440,alt:5.778,name:'0m',desc:'MiniGPS+',color:'',icon:''});
+				GV_Draw_Marker({lat:5.5561110,lon:95.3152780,alt:8.556,name:'400m',desc:'MiniGPS+',color:'',icon:''});
 
 				GV_Finish_Map();
 
